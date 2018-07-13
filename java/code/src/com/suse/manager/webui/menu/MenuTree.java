@@ -392,7 +392,7 @@ public class MenuTree {
             // About Spacewalk
             nodes.add(new MenuItem("About Spacewalk").withIcon("fa-question-circle")
                 .addChild(new MenuItem("Overview").withPrimaryUrl("/rhn/help/about.do"))
-                .addChild(new MenuItem("Sign In").withPrimaryUrl("/rhn/Login.do"))
+                .addChild(new MenuItem("Sign In").withPrimaryUrl("/rhn/manager/login"))
                 .addChild(new MenuItem("Help Desk").withPrimaryUrl("/rhn/help/index.do"))
                 .addChild(new MenuItem("Lookup Login/Password").withPrimaryUrl("/rhn/help/ForgotCredentials.do"))
                 .addChild(new MenuItem("Getting Started Guide").withPrimaryUrl("/rhn/help/dispatcher/getting_started_guide")
