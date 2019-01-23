@@ -45,7 +45,7 @@
 
 # IDEMPOTENT
 
-#- features/allcli_reboot.feature
+- features/allcli_reboot.feature
 #- features/trad_config_channel.feature
 #- features/trad_lock_packages.feature
 #- features/min_centos_salt_install_package_and_patch.feature
