@@ -1,3 +1,4 @@
+- support products with multiple base channels
 - fix ordering of base channels to prevent synchronization errors
   (bsc#1123902)
 
